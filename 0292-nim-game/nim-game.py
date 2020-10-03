@@ -2,14 +2,37 @@
 #
 # Both of you are very clever and have optimal strategies for the game. Write a function to determine whether you can win the game given the number of stones in the heap.
 #
-# Example:
+#  
+# Example 1:
 #
 #
-# Input: 4
-# Output: false 
+# Input: n = 4
+# Output: false
 # Explanation: If there are 4 stones in the heap, then you will never win the game;
-#              No matter 1, 2, or 3 stones you remove, the last stone will always be 
-#              removed by your friend.
+# No matter 1, 2, or 3 stones you remove, the last stone will always be removed by your friend.
+#
+#
+# Example 2:
+#
+#
+# Input: n = 1
+# Output: true
+#
+#
+# Example 3:
+#
+#
+# Input: n = 2
+# Output: true
+#
+#
+#  
+# Constraints:
+#
+#
+# 	1 <= n <= 231 - 1
+#
+#
 
 
 class Solution:
