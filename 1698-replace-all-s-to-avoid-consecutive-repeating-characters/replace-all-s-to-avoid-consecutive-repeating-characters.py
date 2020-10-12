@@ -38,12 +38,8 @@
 # Constraints:
 #
 #
-#
 # 	1 <= s.length <= 100
-#
-#
 # 	s contains only lower case English letters and '?'.
-#
 #
 #
 
